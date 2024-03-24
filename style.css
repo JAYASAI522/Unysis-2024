@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui;
+}
+
+:root{
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+}
+
+.bigText{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.mediumText{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text-color-one{
+    color: #6B6B6B;
+}
+
+.textColor{
+    color: var(--secondary-color);
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.twoColoumns{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.topMargin{
+    padding-block: 12rem;
+}
+
+.topPadding{
+    padding-top: 2rem;
+}
+
+.topPadding-small{
+    padding-top: 1.25rem;
+}
+
+.topPadding-medium{
+    padding-top: 3rem;
+}
+
+.newSection{
+    height: 100vh;
+}
+
+.res{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+
+li{
+    margin-inline: 1.25rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.white{
+    color: white;
+}
+
+.trans{
+    background-color: transparent;
+}
+
+
+.bg{
+    background-image: linear-gradient(to right, #000C3BCC, #042D67CC);
+}
+
+.center{
+    justify-content: center;
+    text-align: center;
+}
+
+.spried > *{
+    margin-top: 2rem;
+}
+
+.rightMargin
+{
+    margin-right: 7rem;
+}
+
+.but{
+    background-color: transparent;
+    border-color: #042D67CC;
+    font-weight: bold;
+    color: var(--secondary-color);
+    padding-inline: 2rem;
+    padding-block: 0.75rem;
+    margin-right: 2rem;
+    border-radius: 18px;
+    border: solid;
+}
+
+.solidBut{
+    border: none;
+    background-color: #CDE7FF;
+    color: black;
+    height: auto;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
